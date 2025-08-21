@@ -6,6 +6,8 @@
 
 </div>
 
+![image](https://github.com/user-attachments/assets/bd7fbc43-04dd-41bd-9e24-d871254e2263)
+
 ---
 ## Overview
 
@@ -63,6 +65,7 @@ The gallery features a fluid, responsive waterfall (masonry) layout, ensuring a 
 6.  **Queue Prompt**: Run your workflow. The selected media's data will be fed into the connected nodes.
 
 ---
+![video](https://github.com/user-attachments/assets/d968e714-006e-446e-8236-daa63b542446)
 
 ## 概述
 
