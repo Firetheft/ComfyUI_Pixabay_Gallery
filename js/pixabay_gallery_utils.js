@@ -1,1 +1,455 @@
-const _0xa7da8e=_0x54f9;(function(_0x2511a5,_0x4c745e){const _0x37c04e=_0x54f9,_0x58c6f6=_0x2511a5();while(!![]){try{const _0x168622=-parseInt(_0x37c04e(0x20a))/0x1*(parseInt(_0x37c04e(0x1e0))/0x2)+parseInt(_0x37c04e(0x1ef))/0x3+parseInt(_0x37c04e(0x194))/0x4+-parseInt(_0x37c04e(0x1d9))/0x5+parseInt(_0x37c04e(0x190))/0x6*(parseInt(_0x37c04e(0x1a0))/0x7)+-parseInt(_0x37c04e(0x1ff))/0x8*(parseInt(_0x37c04e(0x1f1))/0x9)+-parseInt(_0x37c04e(0x1a1))/0xa;if(_0x168622===_0x4c745e)break;else _0x58c6f6['push'](_0x58c6f6['shift']());}catch(_0x723c1e){_0x58c6f6['push'](_0x58c6f6['shift']());}}}(_0x1c27,0x71d9f));import{api}from'/scripts/api.js';function _0x1c27(){const _0x4ac53f=['forEach','apply','\x20.pixabay-cardholder\x20{\x20position:\x20relative;\x20overflow-y:\x20auto;\x20background:\x20#222;\x20padding:\x200\x205px;\x20border-radius:\x205px;\x20flex-grow:\x201;\x20min-height:\x20100px;\x20width:\x20100%;\x20}\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20#','createElement','tiny','\x20.pixabay-controls\x20input,\x20#','all','style','[data-param]','brown','button.search-button','application/json','</option>','selected','pixabayItem','industry','querySelectorAll','\x20.pixabay-cardholder::-webkit-scrollbar-thumb:hover\x20{\x20background-color:\x20#777;\x20}\x0a\x20\x20\x20\x20\x20\x20\x20\x20</style>\x0a\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22pixabay-gallery-wrapper\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22pixabay-controls\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20','</p>','.selected','medium','pink','webformatURL','horizontal','innerHTML','21762spozzg','grayscale','.pixabay-card.selected','scrollHeight','2786956hSzrAP','computer','yellow','setDirtyCanvas','\x20.pixabay-cardholder::-webkit-scrollbar\x20{\x20width:\x208px;\x20}\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20#','\x20.pixabay-controls\x20label\x20{\x20margin-left:\x205px;\x20font-size:\x2012px;\x20}\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20#','feelings','message','places','length','green','popular','812hBNkzx','5194650UoRxUh','appendChild','round','checked','videos','\x20.pixabay-gallery-wrapper\x20{\x20width:\x20100%;\x20font-family:\x20sans-serif;\x20color:\x20#ccc;\x20box-sizing:\x20border-box;\x20display:\x20flex;\x20flex-direction:\x20column;\x20height:\x20100%;\x20}\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20#','addEventListener','\x20.pixabay-card\x20{\x20position:\x20absolute;\x20border:\x203px\x20solid\x20transparent;\x20border-radius:\x208px;\x20box-sizing:\x20border-box;\x20transition:\x20border-color\x200.2s\x20ease-in-out,\x20top\x200.3s\x20ease,\x20left\x200.3s\x20ease;\x20}\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20#','addDOMWidget','<p\x20class=\x22loading-message\x22>Loading...</p>','pixabay-card','\x20.pixabay-controls\x20{\x20display:\x20flex;\x20flex-wrap:\x20wrap;\x20gap:\x2010px;\x20margin-bottom:\x2010px;\x20align-items:\x20center;\x20flex-shrink:\x200;\x20}\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20#','querySelector','remove','min','.pixabay-controls','target','onload','</select>\x0a\x20\x20\x20\x20<input\x20type=\x22text\x22\x20data-param=\x22q\x22\x20value=\x22Girl\x22\x20placeholder=\x22Search...\x22>\x0a\x20\x20\x20\x20<button\x20class=\x22search-button\x22>Search</button>\x0a','observe','animation','url','latest','</select>\x0a\x20\x20\x20\x20<label>Type:</label><select\x20data-param=\x22video_type\x22>','_640.jpg','clientHeight','\x20.pixabay-card\x20img,\x20#','<option\x20value=\x22','illustration','/pixabay_gallery/set_video','checkbox','.pixabay-card','people','hits','Error\x20sending\x20data\x20to\x20backend:','fill','substring','[data-setting=\x27resolution\x27]','src','white','clientWidth','toString','replace','sports','</select>\x0a\x20\x20\x20\x20<label>Orientation:</label><select\x20data-param=\x22orientation\x22>','</select>\x0a\x20\x20\x20\x20<label>Colors:</label><select\x20data-param=\x22colors\x22>','/pixabay_gallery/media?media_type=','fetchApi','\x20.pixabay-card\x20video\x20{\x20width:\x20100%;\x20height:\x20auto;\x20cursor:\x20pointer;\x20border-radius:\x205px;\x20display:\x20block;\x20}\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20#','pixabay-gallery-','div','classList','img','click','map','<p\x20class=\x22loading-message\x22>No\x20results\x20found.</p>','2485485OYSeKg','science','/pixabay_gallery/set_image','film','scroll','business','append','75178sAKnur','isConnected','POST','error','className','</select>\x0a\x20\x20\x20\x20<label>Type:</label><select\x20data-param=\x22image_type\x22>','vertical','value','images','\x20.pixabay-cardholder::-webkit-scrollbar-thumb\x20{\x20background-color:\x20#555;\x20border-radius:\x204px;\x20}\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20#','\x20.pixabay-controls\x20button\x20{\x20cursor:\x20pointer;\x20}\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20#','offsetHeight','music','transparent','\x0a\x20\x20\x20\x20<label>Language:</label><select\x20data-param=\x22lang\x22>','2719437ypHjgv','photo','9pQLLXt','add','dataset','</select>\x0a\x20\x20\x20\x20<label>Order:</label><select\x20data-param=\x22order\x22>','closest','food','top','random','black','nature','keys','blue','\x20.pixabay-cardholder::-webkit-scrollbar-track\x20{\x20background:\x20#2a2a2a;\x20border-radius:\x204px;\x20}\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20#','json','419168dOCUYo','indexOf','red','large','\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22pixabay-cardholder\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<p\x20class=\x22loading-message\x22>Click\x20\x22Search\x22\x20to\x20load\x20media.</p>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20</div>\x0a\x20\x20\x20\x20','</select>\x0a\x20\x20\x20\x20<label>Resolution:</label><select\x20data-setting=\x22resolution\x22>','</select>\x0a\x20\x20\x20\x20<label>Category:</label><select\x20data-param=\x22category\x22>','max','height','religion','_340.jpg','13vCNCgS','gray'];_0x1c27=function(){return _0x4ac53f;};return _0x1c27();}const langMapping={'英语-English':'en','中文-Chinese':'zh','日语-Japanese':'ja','韩语-Korean':'ko','捷克语-Czech':'cs','丹麦语-Danish':'da','德语-German':'de','西班牙语-Spanish':'es','法语-French':'fr','印尼语-Indonesian':'id','意大利语-Italian':'it','匈牙利语-Hungarian':'hu','荷兰语-Dutch':'nl','挪威语-Norwegian':'no','波兰语-Polish':'pl','葡萄牙语-Portuguese':'pt','罗马尼亚语-Romanian':'ro','斯洛伐克语-Slovak':'sk','芬兰语-Finnish':'fi','瑞典语-Swedish':'sv','土耳其语-Turkish':'tr','越南语-Vietnamese':'vi','泰语-Thai':'th','保加利亚语-Bulgarian':'bg','俄语-Russian':'ru','希腊语-Greek':'el'},categoryMapping={'所有-All':'','背景-Backgrounds':'backgrounds','时尚-Fashion':'fashion','自然-Nature':_0xa7da8e(0x1fa),'科学-Science':_0xa7da8e(0x1da),'教育-Education':'education','情感-Feelings':_0xa7da8e(0x19a),'健康-Health':'health','人物-People':_0xa7da8e(0x1c1),'宗教-Religion':_0xa7da8e(0x208),'地点-Places':_0xa7da8e(0x19c),'动物-Animals':'animals','工业-Industry':_0xa7da8e(0x21b),'电脑-Computer':_0xa7da8e(0x195),'食物-Food':_0xa7da8e(0x1f6),'运动-Sports':_0xa7da8e(0x1cc),'交通-Transportation':'transportation','旅行-Travel':'travel','建筑-Buildings':'buildings','商业-Business':_0xa7da8e(0x1de),'音乐-Music':_0xa7da8e(0x1ec)},colorMapping={'所有颜色-All\x20Colors':'','灰度-Grayscale':_0xa7da8e(0x191),'透明-Transparent':_0xa7da8e(0x1ed),'红色-Red':_0xa7da8e(0x201),'橙色-Orange':'orange','黄色-Yellow':_0xa7da8e(0x196),'绿色-Green':_0xa7da8e(0x19e),'青色-Turquoise':'turquoise','蓝色-Blue':_0xa7da8e(0x1fc),'紫丁香-Lilac':'lilac','粉色-Pink':_0xa7da8e(0x221),'白色-White':_0xa7da8e(0x1c8),'灰色-Gray':_0xa7da8e(0x20b),'黑色-Black':_0xa7da8e(0x1f9),'棕色-Brown':_0xa7da8e(0x215)},imageTypeMapping={'所有-All':_0xa7da8e(0x212),'照片-Photo':_0xa7da8e(0x1f0),'插图-Illustration':_0xa7da8e(0x1bd),'矢量图-Vector':'vector'},videoTypeMapping={'所有-All':'all','影片-Film':_0xa7da8e(0x1dc),'动画-Animation':_0xa7da8e(0x1b5)},orientationMapping={'所有-All':_0xa7da8e(0x212),'横向-Horizontal':_0xa7da8e(0x18e),'纵向-Vertical':_0xa7da8e(0x1e6)},orderMapping={'热门-Popular':_0xa7da8e(0x19f),'最新-Latest':_0xa7da8e(0x1b7)},videoResolutionMapping={'微-Tiny':_0xa7da8e(0x210),'小-Small':'small','中-Medium':_0xa7da8e(0x220),'大-Large':_0xa7da8e(0x202)},createOptions=_0x2984c4=>Object[_0xa7da8e(0x1fb)](_0x2984c4)[_0xa7da8e(0x1d7)](_0x447353=>_0xa7da8e(0x1bc)+_0x2984c4[_0x447353]+'\x22>'+_0x447353+_0xa7da8e(0x218))['join'](''),imageControlsHTML=_0xa7da8e(0x1ee)+createOptions(langMapping)+_0xa7da8e(0x1e5)+createOptions(imageTypeMapping)+_0xa7da8e(0x1cd)+createOptions(orientationMapping)+_0xa7da8e(0x205)+createOptions(categoryMapping)+_0xa7da8e(0x1f4)+createOptions(orderMapping)+_0xa7da8e(0x1ce)+createOptions(colorMapping)+_0xa7da8e(0x1b3),videoControlsHTML=_0xa7da8e(0x1ee)+createOptions(langMapping)+_0xa7da8e(0x1b8)+createOptions(videoTypeMapping)+_0xa7da8e(0x205)+createOptions(categoryMapping)+_0xa7da8e(0x1f4)+createOptions(orderMapping)+_0xa7da8e(0x204)+createOptions(videoResolutionMapping)+_0xa7da8e(0x1b3);function _0x54f9(_0x2991db,_0x54302b){const _0x1c27d8=_0x1c27();return _0x54f9=function(_0x54f942,_0xdfe9fe){_0x54f942=_0x54f942-0x18e;let _0x314074=_0x1c27d8[_0x54f942];return _0x314074;},_0x54f9(_0x2991db,_0x54302b);}export function setupGallery(_0x4d92e8,_0x35c342){const _0x2bc8a1=_0xa7da8e,_0x2d8e8a=document['createElement'](_0x2bc8a1(0x1d3)),_0x2951de=_0x2bc8a1(0x1d2)+Math[_0x2bc8a1(0x1f8)]()[_0x2bc8a1(0x1ca)](0x24)[_0x2bc8a1(0x1c5)](0x2,0x9);_0x2d8e8a['id']=_0x2951de,_0x2d8e8a[_0x2bc8a1(0x18f)]='\x0a\x20\x20\x20\x20\x20\x20\x20\x20<style>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20#'+_0x2951de+_0x2bc8a1(0x1a6)+_0x2951de+_0x2bc8a1(0x1ac)+_0x2951de+_0x2bc8a1(0x199)+_0x2951de+'\x20.pixabay-controls\x20select,\x20#'+_0x2951de+_0x2bc8a1(0x211)+_0x2951de+'\x20.pixabay-controls\x20button\x20{\x20background-color:\x20#333;\x20color:\x20#ccc;\x20border:\x201px\x20solid\x20#555;\x20border-radius:\x204px;\x20padding:\x204px;\x20font-size:\x2012px;\x20}\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20#'+_0x2951de+_0x2bc8a1(0x1ea)+_0x2951de+'\x20.pixabay-controls\x20button:hover\x20{\x20background-color:\x20#444;\x20}\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20#'+_0x2951de+_0x2bc8a1(0x20e)+_0x2951de+_0x2bc8a1(0x1a8)+_0x2951de+'\x20.pixabay-card.selected\x20{\x20border-color:\x20#00FFC9;\x20}\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20#'+_0x2951de+_0x2bc8a1(0x1bb)+_0x2951de+_0x2bc8a1(0x1d1)+_0x2951de+'\x20.pixabay-card\x20*:hover\x20{\x20filter:\x20brightness(1.2);\x20}\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20#'+_0x2951de+_0x2bc8a1(0x198)+_0x2951de+_0x2bc8a1(0x1fd)+_0x2951de+_0x2bc8a1(0x1e9)+_0x2951de+_0x2bc8a1(0x21d)+(_0x35c342===_0x2bc8a1(0x1e8)?imageControlsHTML:videoControlsHTML)+_0x2bc8a1(0x203),_0x4d92e8[_0x2bc8a1(0x1a9)]('gallery',_0x2bc8a1(0x1d3),_0x2d8e8a,{});const _0x3bd65a=_0x2d8e8a[_0x2bc8a1(0x1ad)]('.pixabay-cardholder'),_0x5ce437=_0x2d8e8a['querySelector'](_0x2bc8a1(0x1b0));let _0x3ecb9c=![],_0x5bf7d9=0x1,_0x20362b=!![];const _0x2fa958=(_0x3c2d57,_0x38d8a7)=>{let _0x2f4158;return(..._0x318867)=>{const _0x551d6c=_0x54f9;clearTimeout(_0x2f4158),_0x2f4158=setTimeout(()=>_0x3c2d57[_0x551d6c(0x20d)](this,_0x318867),_0x38d8a7);};},_0x27c4f4=()=>{const _0x5cdd4f=_0x2bc8a1,_0x250971=0x96,_0x560d43=0x5,_0x597d3e=_0x3bd65a[_0x5cdd4f(0x1c9)];if(_0x597d3e===0x0)return;const _0x1de63a=Math[_0x5cdd4f(0x206)](0x1,Math[_0x5cdd4f(0x1a3)](_0x597d3e/(_0x250971+_0x560d43))),_0x2b9f13=(_0x1de63a-0x1)*_0x560d43,_0x4a5ea1=(_0x597d3e-_0x2b9f13)/_0x1de63a,_0x346b1c=new Array(_0x1de63a)[_0x5cdd4f(0x1c4)](0x0),_0x5acf2a=_0x3bd65a[_0x5cdd4f(0x21c)](_0x5cdd4f(0x1c0));_0x5acf2a[_0x5cdd4f(0x20c)](_0x5ccee4=>{const _0x144026=_0x5cdd4f;_0x5ccee4[_0x144026(0x213)]['width']=_0x4a5ea1+'px';const _0x495290=Math[_0x144026(0x1af)](..._0x346b1c),_0x52bc77=_0x346b1c[_0x144026(0x200)](_0x495290);_0x5ccee4[_0x144026(0x213)]['left']=_0x52bc77*(_0x4a5ea1+_0x560d43)+'px',_0x5ccee4[_0x144026(0x213)][_0x144026(0x1f7)]=_0x495290+'px',_0x346b1c[_0x52bc77]+=_0x5ccee4[_0x144026(0x1eb)]+_0x560d43;}),_0x3bd65a[_0x5cdd4f(0x213)][_0x5cdd4f(0x207)]=Math[_0x5cdd4f(0x206)](..._0x346b1c)+'px';},_0x229fe4=_0x2fa958(_0x27c4f4,0x32);new ResizeObserver(_0x229fe4)[_0x2bc8a1(0x1b4)](_0x3bd65a);const _0x1e179f=async(_0x749916=![])=>{const _0x4458c1=_0x2bc8a1;if(_0x3ecb9c)return;_0x3ecb9c=!![];_0x749916&&(_0x5bf7d9=0x1,_0x20362b=!![],_0x3bd65a['innerHTML']=_0x4458c1(0x1aa));const _0x4f7352=new URLSearchParams();_0x5ce437[_0x4458c1(0x21c)](_0x4458c1(0x214))[_0x4458c1(0x20c)](_0x20563e=>{const _0x5791e1=_0x4458c1,_0x144b61=_0x20563e[_0x5791e1(0x1f3)]['param'],_0xb8a2dc=_0x20563e['type']===_0x5791e1(0x1bf)?_0x20563e[_0x5791e1(0x1a4)]:_0x20563e[_0x5791e1(0x1e7)];_0xb8a2dc&&_0x4f7352['append'](_0x144b61,_0xb8a2dc);}),_0x4f7352[_0x4458c1(0x1df)]('page',_0x5bf7d9['toString']()),_0x4f7352['append']('per_page',0x1e);const _0x357873=_0x4458c1(0x1cf)+_0x35c342+'&'+_0x4f7352[_0x4458c1(0x1ca)]();try{const _0x481b63=await api[_0x4458c1(0x1d0)](_0x357873);if(!_0x481b63['ok'])throw new Error((await _0x481b63[_0x4458c1(0x1fe)]())[_0x4458c1(0x1e3)]);const _0x382cdc=await _0x481b63['json']();if(_0x749916)_0x3bd65a['innerHTML']='';if(_0x382cdc['hits'][_0x4458c1(0x19d)]===0x0){_0x20362b=![];if(_0x749916)_0x3bd65a[_0x4458c1(0x18f)]=_0x4458c1(0x1d8);return;}_0x382cdc[_0x4458c1(0x1c2)][_0x4458c1(0x20c)](_0x14be68=>{const _0x4dfca1=_0x4458c1,_0xf8593f=document[_0x4dfca1(0x20f)]('div');_0xf8593f[_0x4dfca1(0x1e4)]=_0x4dfca1(0x1ab),_0xf8593f['pixabayItem']=_0x14be68;const _0x2a4118=_0x35c342===_0x4dfca1(0x1e8)?document[_0x4dfca1(0x20f)](_0x4dfca1(0x1d5)):document['createElement']('video');_0x2a4118[_0x4dfca1(0x1c7)]=_0x35c342===_0x4dfca1(0x1e8)?_0x14be68[_0x4dfca1(0x222)][_0x4dfca1(0x1cb)](_0x4dfca1(0x1b9),_0x4dfca1(0x209)):_0x14be68[_0x4dfca1(0x1a5)][_0x4dfca1(0x210)][_0x4dfca1(0x1b6)];if(_0x35c342===_0x4dfca1(0x1a5))Object['assign'](_0x2a4118,{'autoplay':!![],'loop':!![],'muted':!![],'playsinline':!![]});const _0x3ee5d2=()=>{const _0xe16855=_0x4dfca1;if(_0xf8593f[_0xe16855(0x1e1)])_0x229fe4();};_0x2a4118[_0x4dfca1(0x1b2)]=_0x3ee5d2,_0x2a4118['onloadeddata']=_0x3ee5d2,_0xf8593f[_0x4dfca1(0x1a2)](_0x2a4118),_0x3bd65a[_0x4dfca1(0x1a2)](_0xf8593f);}),_0x5bf7d9++,requestAnimationFrame(_0x27c4f4);}catch(_0x261e71){console[_0x4458c1(0x1e3)]('Error\x20fetching\x20Pixabay\x20media:',_0x261e71),_0x3bd65a['innerHTML']='<p\x20class=\x22loading-message\x20error\x22>'+_0x261e71[_0x4458c1(0x19b)]+_0x4458c1(0x21e);}finally{_0x3ecb9c=![];}};_0x5ce437['querySelector'](_0x2bc8a1(0x216))['addEventListener'](_0x2bc8a1(0x1d6),()=>_0x1e179f(!![])),_0x3bd65a[_0x2bc8a1(0x1a7)](_0x2bc8a1(0x1dd),()=>{const _0xe9f3f8=_0x2bc8a1;_0x20362b&&!_0x3ecb9c&&_0x3bd65a['scrollTop']+_0x3bd65a[_0xe9f3f8(0x1ba)]>=_0x3bd65a[_0xe9f3f8(0x193)]-0x12c&&_0x1e179f();});const _0xee00f6=async()=>{const _0x7ae1d7=_0x2bc8a1,_0x34983a=_0x2d8e8a[_0x7ae1d7(0x1ad)](_0x7ae1d7(0x192));if(!_0x34983a)return;let _0x45f231='',_0x32607f={};if(_0x35c342===_0x7ae1d7(0x1e8))_0x45f231=_0x7ae1d7(0x1db),_0x32607f=_0x34983a[_0x7ae1d7(0x21a)];else{_0x45f231=_0x7ae1d7(0x1be);const _0x228f14=_0x5ce437[_0x7ae1d7(0x1ad)](_0x7ae1d7(0x1c6))[_0x7ae1d7(0x1e7)];_0x32607f={'item':_0x34983a[_0x7ae1d7(0x21a)],'resolution':_0x228f14};}try{await fetch(_0x45f231,{'method':_0x7ae1d7(0x1e2),'headers':{'Content-Type':_0x7ae1d7(0x217)},'body':JSON['stringify'](_0x32607f)}),_0x4d92e8[_0x7ae1d7(0x197)](!![],!![]);}catch(_0x404807){console[_0x7ae1d7(0x1e3)](_0x7ae1d7(0x1c3),_0x404807);}};_0x2d8e8a['addEventListener']('click',async _0x2adf4c=>{const _0x2d266f=_0x2bc8a1,_0x2783b1=_0x2adf4c[_0x2d266f(0x1b1)][_0x2d266f(0x1f5)](_0x2d266f(0x1c0));if(!_0x2783b1)return;if(_0x2783b1[_0x2d266f(0x1d4)]['contains']('selected'))return;_0x2d8e8a[_0x2d266f(0x1ad)](_0x2d266f(0x21f))?.['classList'][_0x2d266f(0x1ae)](_0x2d266f(0x219)),_0x2783b1[_0x2d266f(0x1d4)][_0x2d266f(0x1f2)](_0x2d266f(0x219)),_0xee00f6();});if(_0x35c342===_0x2bc8a1(0x1a5)){const _0x5bd2d2=_0x5ce437['querySelector'](_0x2bc8a1(0x1c6));_0x5bd2d2&&_0x5bd2d2[_0x2bc8a1(0x1a7)]('change',()=>{_0xee00f6();});}}
+import { api } from "/scripts/api.js";
+
+function setupGlobalLightbox() {
+    if (document.getElementById('global-pixabay-lightbox')) return;
+
+    const lightboxId = 'global-pixabay-lightbox';
+    const lightboxHTML = `
+        <div id="${lightboxId}" class="lightbox-overlay">
+            <button class="lightbox-close">&times;</button>
+            <button class="lightbox-prev">&lt;</button>
+            <button class="lightbox-next">&gt;</button>
+            <div class="lightbox-content">
+                <img src="" alt="Preview" style="display: none;">
+                <video src="" controls autoplay loop style="max-width: 95%; max-height: 95%; display: none;"></video>
+            </div>
+            <div class="lightbox-dimensions"></div>
+        </div>`;
+    
+    const lightboxCSS = `
+        #${lightboxId} { position: fixed; top: 0; left: 0; width: 100%; height: 100%; background-color: rgba(0, 0, 0, 0.85); display: none; align-items: center; justify-content: center; z-index: 10000; box-sizing: border-box; -webkit-user-select: none; user-select: none; }
+        #${lightboxId} .lightbox-content { position: relative; width: 100%; height: 100%; display: flex; align-items: center; justify-content: center; overflow: hidden; }
+        #${lightboxId} img, #${lightboxId} video { max-width: 95%; max-height: 95%; object-fit: contain; }
+        #${lightboxId} .lightbox-close { position: absolute; top: 15px; right: 20px; width: 35px; height: 35px; background-color: rgba(0,0,0,0.5); color: #fff; border-radius: 50%; border: 2px solid #fff; font-size: 24px; line-height: 30px; text-align: center; cursor: pointer; z-index: 10002; }
+        #${lightboxId} .lightbox-prev, #${lightboxId} .lightbox-next { position: absolute; top: 50%; transform: translateY(-50%); width: 45px; height: 60px; background-color: rgba(0,0,0,0.4); color: #fff; border: none; font-size: 30px; cursor: pointer; z-index: 10001; transition: background-color 0.2s; }
+        #${lightboxId} .lightbox-prev:hover, #${lightboxId} .lightbox-next:hover { background-color: rgba(0,0,0,0.7); }
+        #${lightboxId} .lightbox-prev { left: 15px; }
+        #${lightboxId} .lightbox-next { right: 15px; }
+        #${lightboxId} [disabled] { display: none; }
+        #${lightboxId} .lightbox-dimensions { position: absolute; bottom: 0px; left: 50%; transform: translateX(-50%); background-color: rgba(0, 0, 0, 0.6); color: #fff; padding: 4px 8px; border-radius: 5px; font-size: 14px; z-index: 10001; }
+    `;
+    document.body.insertAdjacentHTML('beforeend', lightboxHTML);
+    const styleEl = document.createElement('style');
+    styleEl.textContent = lightboxCSS;
+    document.head.appendChild(styleEl);
+
+    const lightbox = document.getElementById(lightboxId);
+    const lightboxImg = lightbox.querySelector("img");
+    const lightboxVideo = lightbox.querySelector("video");
+    const prevButton = lightbox.querySelector(".lightbox-prev");
+    const nextButton = lightbox.querySelector(".lightbox-next");
+    const dimensionsEl = lightbox.querySelector(".lightbox-dimensions");
+    
+    let currentMediaList = [];
+    let currentIndex = -1;
+    let currentResolution = 'tiny';
+
+    function showMediaAtIndex(index) {
+        if (index < 0 || index >= currentMediaList.length) return;
+        
+        currentIndex = index;
+        const media = currentMediaList[index];
+        
+        lightbox.style.display = 'flex';
+        dimensionsEl.textContent = 'Loading...';
+
+        if (media.videos) {
+            lightboxImg.style.display = 'none';
+            lightboxVideo.style.display = 'block';
+            const videoInfo = media.videos[currentResolution] || media.videos.large || media.videos.medium || media.videos.small || media.videos.tiny;
+            lightboxVideo.src = videoInfo.url;
+            dimensionsEl.textContent = `${videoInfo.width} x ${videoInfo.height}`;
+        } else {
+            lightboxVideo.style.display = 'none';
+            lightboxVideo.pause();
+            lightboxVideo.src = "";
+            lightboxImg.style.display = 'block';
+            lightboxImg.src = media.largeImageURL;
+            
+            const tempImg = new Image();
+            tempImg.onload = () => {
+                dimensionsEl.textContent = `${tempImg.naturalWidth} x ${tempImg.naturalHeight}`;
+            };
+            tempImg.onerror = () => {
+                dimensionsEl.textContent = 'Dimension Error';
+            };
+            tempImg.src = media.largeImageURL;
+            if (tempImg.complete) {
+                dimensionsEl.textContent = `${tempImg.naturalWidth} x ${tempImg.naturalHeight}`;
+            }
+        }
+
+        prevButton.disabled = currentIndex === 0;
+        nextButton.disabled = currentIndex === currentMediaList.length - 1;
+    }
+
+    const closeLightbox = () => {
+        lightbox.style.display = 'none';
+        lightboxImg.src = "";
+        lightboxVideo.pause();
+        lightboxVideo.src = "";
+    };
+    
+    prevButton.addEventListener('click', () => showMediaAtIndex(currentIndex - 1));
+    nextButton.addEventListener('click', () => showMediaAtIndex(currentIndex + 1));
+    lightbox.querySelector('.lightbox-close').addEventListener('click', closeLightbox);
+    lightbox.addEventListener('click', (e) => { if (e.target === lightbox) closeLightbox(); });
+    window.addEventListener('keydown', (e) => {
+        if (lightbox.style.display !== 'flex') return;
+        if (e.key === 'ArrowLeft') { e.preventDefault(); prevButton.click(); }
+        else if (e.key === 'ArrowRight') { e.preventDefault(); nextButton.click(); }
+        else if (e.key === 'Escape') { e.preventDefault(); closeLightbox(); }
+    });
+
+    window.showPixabayMediaInLightbox = (index, mediaList, resolution) => {
+        currentMediaList = mediaList;
+        currentIndex = index;
+        currentResolution = resolution;
+        showMediaAtIndex(index);
+    };
+}
+
+const langMapping = {
+    "英语-English": "en", "中文-Chinese": "zh", "日语-Japanese": "ja", "韩语-Korean": "ko",
+    "捷克语-Czech": "cs", "丹麦语-Danish": "da", "德语-German": "de", "西班牙语-Spanish": "es",
+    "法语-French": "fr", "印尼语-Indonesian": "id", "意大利语-Italian": "it", "匈牙利语-Hungarian": "hu",
+    "荷兰语-Dutch": "nl", "挪威语-Norwegian": "no", "波兰语-Polish": "pl", "葡萄牙语-Portuguese": "pt",
+    "罗马尼亚语-Romanian": "ro", "斯洛伐克语-Slovak": "sk", "芬兰语-Finnish": "fi", "瑞典语-Swedish": "sv",
+    "土耳其语-Turkish": "tr", "越南语-Vietnamese": "vi", "泰语-Thai": "th", "保加利亚语-Bulgarian": "bg",
+    "俄语-Russian": "ru", "希腊语-Greek": "el"
+};
+
+const categoryMapping = {
+    "所有-All": "", "背景-Backgrounds": "backgrounds", "时尚-Fashion": "fashion", "自然-Nature": "nature",
+    "科学-Science": "science", "教育-Education": "education", "情感-Feelings": "feelings", "健康-Health": "health",
+    "人物-People": "people", "宗教-Religion": "religion", "地点-Places": "places", "动物-Animals": "animals",
+    "工业-Industry": "industry", "电脑-Computer": "computer", "食物-Food": "food", "运动-Sports": "sports",
+    "交通-Transportation": "transportation", "旅行-Travel": "travel", "建筑-Buildings": "buildings",
+    "商业-Business": "business", "音乐-Music": "music"
+};
+
+const colorMapping = {
+    "所有颜色-All Colors": "", "灰度-Grayscale": "grayscale", "透明-Transparent": "transparent",
+    "红色-Red": "red", "橙色-Orange": "orange", "黄色-Yellow": "yellow", "绿色-Green": "green",
+    "青色-Turquoise": "turquoise", "蓝色-Blue": "blue", "紫丁香-Lilac": "lilac",
+    "粉色-Pink": "pink", "白色-White": "white", "灰色-Gray": "gray", "黑色-Black": "black", "棕色-Brown": "brown"
+};
+
+const imageTypeMapping = { "所有-All": "all", "照片-Photo": "photo", "插图-Illustration": "illustration", "矢量图-Vector": "vector" };
+const videoTypeMapping = { "所有-All": "all", "影片-Film": "film", "动画-Animation": "animation" };
+const orientationMapping = { "所有-All": "all", "横向-Horizontal": "horizontal", "纵向-Vertical": "vertical" };
+const orderMapping = { "热门-Popular": "popular", "最新-Latest": "latest" };
+
+const videoResolutionMapping = {
+    "微-Tiny": "tiny",
+    "小-Small": "small",
+    "中-Medium": "medium",
+    "大-Large": "large"
+};
+
+const createOptions = (mapping) => Object.keys(mapping).map(k => `<option value="${mapping[k]}">${k}</option>`).join('');
+
+const imageControlsHTML = `
+    <label>Language:</label><select data-param="lang">${createOptions(langMapping)}</select>
+    <label>Type:</label><select data-param="image_type">${createOptions(imageTypeMapping)}</select>
+    <label>Orientation:</label><select data-param="orientation">${createOptions(orientationMapping)}</select>
+    <label>Category:</label><select data-param="category">${createOptions(categoryMapping)}</select>
+    <label>Order:</label><select data-param="order">${createOptions(orderMapping)}</select>
+    <label>Colors:</label><select data-param="colors">${createOptions(colorMapping)}</select>
+    <input type="text" data-param="q" value="Girl" placeholder="Search...">
+    <label>Favorites ★:</label><input type="checkbox" data-setting="showFavorites">
+`;
+
+const videoControlsHTML = `
+    <label>Language:</label><select data-param="lang">${createOptions(langMapping)}</select>
+    <label>Type:</label><select data-param="video_type">${createOptions(videoTypeMapping)}</select>
+    <label>Category:</label><select data-param="category">${createOptions(categoryMapping)}</select>
+    <label>Order:</label><select data-param="order">${createOptions(orderMapping)}</select>
+    <label>Resolution:</label><select data-setting="resolution">${createOptions(videoResolutionMapping)}</select>
+    <input type="text" data-param="q" value="Girl" placeholder="Search...">
+    <label>Favorites ★:</label><input type="checkbox" data-setting="showFavorites">
+`;
+
+export function setupGallery(node, mediaType) {
+    setupGlobalLightbox();
+
+    const galleryContainer = document.createElement("div");
+    const uniqueId = `pixabay-gallery-${Math.random().toString(36).substring(2, 9)}`;
+    galleryContainer.id = uniqueId;
+
+    galleryContainer.innerHTML = `
+        <style>
+            #${uniqueId} .pixabay-gallery-wrapper { width: 100%; font-family: sans-serif; color: #ccc; box-sizing: border-box; display: flex; flex-direction: column; height: 100%; }
+            #${uniqueId} .pixabay-controls { display: flex; flex-wrap: wrap; gap: 10px; margin-bottom: 10px; align-items: center; flex-shrink: 0; }
+            #${uniqueId} .pixabay-controls label { margin-left: 5px; font-size: 12px; }
+            #${uniqueId} .pixabay-controls select, #${uniqueId} .pixabay-controls input { background-color: #333; color: #ccc; border: 1px solid #555; border-radius: 4px; padding: 4px; font-size: 12px; }
+            #${uniqueId} .pixabay-cardholder { position: relative; overflow-y: auto; background: #222; padding: 0 5px; border-radius: 5px; flex-grow: 1; min-height: 100px; width: 100%; }
+            #${uniqueId} .pixabay-card { position: absolute; border: 3px solid transparent; border-radius: 8px; box-sizing: border-box; transition: all 0.2s ease-in-out; overflow: hidden;}
+            #${uniqueId} .pixabay-card.selected { border-color: #00FFC9; }
+            #${uniqueId} .pixabay-card img, #${uniqueId} .pixabay-card video { width: 100%; height: auto; cursor: pointer; border-radius: 5px; display: block; }
+            #${uniqueId} .pixabay-card:hover { transform: translateY(-1px); box-shadow: 0 2px 5px rgba(0,255,201,0.2); }
+            #${uniqueId} .pixabay-card-fav-btn { position: absolute; top: 5px; left: 8px; z-index: 10; width: 24px; height: 24px; background-color: rgba(0,0,0,0.5); color: #fff; border-radius: 50%; display: flex; align-items: center; justify-content: center; font-size: 14px; cursor: pointer; transition: all 0.2s; border: none; padding: 0; opacity: 0; }
+            #${uniqueId} .pixabay-card:hover .pixabay-card-fav-btn { opacity: 1; }
+            #${uniqueId} .pixabay-card-fav-btn.favorited { color: #FFD700; opacity: 1; }
+            #${uniqueId} .pixabay-cardholder::-webkit-scrollbar { width: 8px; }
+            #${uniqueId} .pixabay-cardholder::-webkit-scrollbar-track { background: #2a2a2a; border-radius: 4px; }
+            #${uniqueId} .pixabay-cardholder::-webkit-scrollbar-thumb { background-color: #555; border-radius: 4px; }
+        </style>
+        <div class="pixabay-gallery-wrapper">
+            <div class="pixabay-controls">
+                ${mediaType === 'images' ? imageControlsHTML : videoControlsHTML}
+            </div>
+            <div class="pixabay-cardholder">
+                <p class="loading-message">Change filters to load media.</p>
+            </div>
+        </div>
+    `;
+
+    node.addDOMWidget("gallery", "div", galleryContainer, {});
+
+    const cardholder = galleryContainer.querySelector(".pixabay-cardholder");
+    const controls = galleryContainer.querySelector(".pixabay-controls");
+    const showFavoritesCheckbox = controls.querySelector("[data-setting='showFavorites']");
+
+    let isLoading = false; let page = 1; let hasMore = true;
+    let favorites = new Set();
+
+    const debounce = (func, delay) => { let timeout; return (...args) => { clearTimeout(timeout); timeout = setTimeout(() => func.apply(this, args), delay); }; };
+
+    const applyMasonryLayout = () => {
+        const minCardWidth = 150; const gap = 5;
+        const containerWidth = cardholder.clientWidth;
+        if (containerWidth === 0) return;
+        
+        const columnCount = Math.max(1, Math.floor(containerWidth / (minCardWidth + gap)));
+        const totalGapSpace = (columnCount - 1) * gap;
+        const actualCardWidth = (containerWidth - totalGapSpace) / columnCount;
+        const columnHeights = new Array(columnCount).fill(0);
+        const cards = cardholder.querySelectorAll(".pixabay-card");
+        
+        cards.forEach(card => {
+            card.style.width = `${actualCardWidth}px`;
+            const minHeight = Math.min(...columnHeights);
+            const columnIndex = columnHeights.indexOf(minHeight);
+            card.style.left = `${columnIndex * (actualCardWidth + gap)}px`;
+            card.style.top = `${minHeight}px`;
+            columnHeights[columnIndex] += card.offsetHeight + gap;
+        });
+
+        cardholder.style.height = `${Math.max(...columnHeights)}px`;
+    };
+
+    const debouncedLayout = debounce(applyMasonryLayout, 50);
+    new ResizeObserver(debouncedLayout).observe(cardholder);
+
+    const fetchMedia = async (newPage = false) => {
+        if (isLoading) return; isLoading = true;
+        if (newPage) { page = 1; hasMore = true; cardholder.innerHTML = '<p class="loading-message">Loading...</p>'; }
+
+        const params = new URLSearchParams();
+        let url;
+
+        if (showFavoritesCheckbox.checked) {
+            params.append("page", page.toString());
+            params.append("per_page", 30);
+            url = `/pixabay_gallery/get_favorites_media?${params.toString()}`;
+        } else {
+            controls.querySelectorAll("[data-param]").forEach(el => {
+                const key = el.dataset.param;
+                const value = el.type === 'checkbox' ? el.checked : el.value;
+                if (value) { params.append(key, value); }
+            });
+            params.append("page", page.toString());
+            params.append("per_page", 30);
+            url = `/pixabay_gallery/media?media_type=${mediaType}&${params.toString()}`;
+        }
+
+        try {
+            const response = await api.fetchApi(url);
+            if (!response.ok) throw new Error((await response.json()).error);
+            const data = await response.json();
+            if (newPage) cardholder.innerHTML = "";
+            if (data.hits.length === 0) {
+                 hasMore = false;
+                 if (newPage) cardholder.innerHTML = '<p class="loading-message">No results found.</p>';
+                 return;
+            }
+            data.hits.forEach(item => {
+                const isItemVideo = !!item.videos;
+
+                if (showFavoritesCheckbox.checked) {
+                    if (mediaType === 'images' && isItemVideo) return;
+                    if (mediaType === 'videos' && !isItemVideo) return;
+                }
+
+                const card = document.createElement('div');
+                card.className = 'pixabay-card';
+                card.pixabayItem = item;
+
+                const favBtn = document.createElement("button");
+                favBtn.className = "pixabay-card-fav-btn";
+                favBtn.innerHTML = "★";
+                if (favorites.has(String(item.id))) {
+                    favBtn.classList.add("favorited");
+                }
+                favBtn.addEventListener("click", async (e) => {
+                    e.stopPropagation();
+                    const itemIdStr = String(item.id);
+                    const isFavorited = favBtn.classList.toggle("favorited");
+
+                    if (isFavorited) {
+                        favorites.add(itemIdStr);
+                    } else {
+                        favorites.delete(itemIdStr);
+                        if (showFavoritesCheckbox.checked) {
+                            card.remove();
+                            setTimeout(applyMasonryLayout, 50);
+                        }
+                    }
+
+                    await api.fetchApi("/pixabay_gallery/toggle_favorite", {
+                        method: "POST",
+                        headers: { "Content-Type": "application/json" },
+                        body: JSON.stringify({ item: item })
+                    });
+                });
+                card.appendChild(favBtn);
+
+                let mediaEl;
+                if (isItemVideo) {
+                    const thumbnailEl = document.createElement('img');
+                    thumbnailEl.src = item.videos.tiny.thumbnail;
+                    card.appendChild(thumbnailEl);
+
+                    const videoEl = document.createElement('video');
+                    videoEl.style.display = 'none';
+                    videoEl.dataset.src = item.videos.tiny.url;
+                    Object.assign(videoEl, { loop: true, muted: true, playsinline: true, preload: "none" });
+                    card.appendChild(videoEl);
+
+                    card.addEventListener('mouseenter', () => {
+                        thumbnailEl.style.display = 'none';
+                        videoEl.style.display = 'block';
+                        if (!videoEl.src) {
+                            videoEl.src = videoEl.dataset.src;
+                        }
+                        videoEl.play();
+                    });
+
+                    card.addEventListener('mouseleave', () => {
+                        videoEl.pause();
+                        videoEl.style.display = 'none';
+                        thumbnailEl.style.display = 'block';
+                    });
+
+                    mediaEl = thumbnailEl;
+                } else {
+                    mediaEl = document.createElement('img');
+                    mediaEl.src = item.webformatURL.replace('_640.jpg', '_340.jpg');
+                    card.appendChild(mediaEl);
+                }
+
+                const onMediaLoad = () => { if (card.isConnected) debouncedLayout(); };
+                mediaEl.onload = onMediaLoad;
+                mediaEl.onloadeddata = onMediaLoad;
+                cardholder.appendChild(card);
+            });
+            page++; 
+            if (data.totalHits) hasMore = (page - 1) * 30 < data.totalHits;
+            requestAnimationFrame(applyMasonryLayout);
+        } catch (error) {
+            console.error("Error fetching Pixabay media:", error);
+            cardholder.innerHTML = `<p class="loading-message error">${error.message}</p>`;
+        } finally { isLoading = false; }
+    };
+
+    const debouncedFetch = debounce(() => fetchMedia(true), 300);
+
+    const refreshAndFetch = () => {
+        const isFav = showFavoritesCheckbox.checked;
+        controls.querySelectorAll("[data-param]").forEach(el => el.disabled = isFav);
+        fetchMedia(true);
+    };
+
+    controls.querySelectorAll('select[data-param], input[type=text][data-param]').forEach(el => {
+        el.addEventListener('change', refreshAndFetch);
+        if (el.tagName === 'INPUT') {
+            el.addEventListener('keyup', debouncedFetch);
+        }
+    });
+    showFavoritesCheckbox.addEventListener('change', refreshAndFetch);
+
+    cardholder.addEventListener("scroll", () => { if (hasMore && !isLoading && cardholder.scrollTop + cardholder.clientHeight >= cardholder.scrollHeight - 300) { fetchMedia(); } });
+    
+    const sendSelectionToServer = async () => {
+        const selectedCard = galleryContainer.querySelector('.pixabay-card.selected');
+        if (!selectedCard) return;
+
+        let endpoint = '';
+        let payload = {};
+
+        if (mediaType === 'images') {
+            endpoint = '/pixabay_gallery/set_image';
+            payload = selectedCard.pixabayItem;
+        } else {
+            endpoint = '/pixabay_gallery/set_video';
+            const resolution = controls.querySelector("[data-setting='resolution']").value;
+            payload = {
+                item: selectedCard.pixabayItem,
+                resolution: resolution
+            };
+        }
+        
+        try {
+            await fetch(endpoint, { method: "POST", headers: { "Content-Type": "application/json" }, body: JSON.stringify(payload), });
+            node.setDirtyCanvas(true, true);
+        } catch (e) { console.error("Error sending data to backend:", e); }
+    };
+    
+    galleryContainer.addEventListener('click', async (event) => {
+        const card = event.target.closest('.pixabay-card');
+        if (!card || event.target.classList.contains('pixabay-card-fav-btn')) return;
+        if (card.classList.contains('selected')) return;
+        galleryContainer.querySelector('.selected')?.classList.remove('selected');
+        card.classList.add('selected');
+        sendSelectionToServer();
+    });
+
+    galleryContainer.addEventListener('dblclick', (event) => {
+        const card = event.target.closest('.pixabay-card');
+        if (!card) return;
+        
+        const allCards = Array.from(cardholder.querySelectorAll(".pixabay-card"));
+        const currentMediaList = allCards.map(c => c.pixabayItem);
+        const startIndex = allCards.indexOf(card);
+        
+        let resolution = 'tiny';
+        if (mediaType === 'videos') {
+            resolution = controls.querySelector("[data-setting='resolution']").value;
+        }
+        
+        if (startIndex !== -1) {
+            window.showPixabayMediaInLightbox(startIndex, currentMediaList, resolution);
+        }
+    });
+
+    if (mediaType === 'videos') {
+        const resolutionDropdown = controls.querySelector("[data-setting='resolution']");
+        if (resolutionDropdown) {
+            resolutionDropdown.addEventListener("change", () => {
+                sendSelectionToServer();
+            });
+        }
+    }
+
+    const initialize = async () => {
+        try {
+            const res = await api.fetchApi('/pixabay_gallery/get_favorites_list');
+            const favIds = await res.json();
+            favorites = new Set(favIds.map(String));
+        } catch(e) { console.error("Error fetching favorites list", e); }
+        refreshAndFetch();
+    };
+
+    initialize();
+}

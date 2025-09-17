@@ -1,1 +1,17 @@
-function _0x4fa1(_0x24db92,_0x3b5b98){const _0x14fb38=_0x14fb();return _0x4fa1=function(_0x4fa150,_0x3c1510){_0x4fa150=_0x4fa150-0x7b;let _0x27edde=_0x14fb38[_0x4fa150];return _0x27edde;},_0x4fa1(_0x24db92,_0x3b5b98);}const _0x4a59dc=_0x4fa1;(function(_0x3df6e1,_0x3b182b){const _0x228342=_0x4fa1,_0x58a9d4=_0x3df6e1();while(!![]){try{const _0x432e59=-parseInt(_0x228342(0x86))/0x1+-parseInt(_0x228342(0x7f))/0x2*(-parseInt(_0x228342(0x8c))/0x3)+-parseInt(_0x228342(0x7e))/0x4+-parseInt(_0x228342(0x81))/0x5+-parseInt(_0x228342(0x8d))/0x6*(parseInt(_0x228342(0x88))/0x7)+-parseInt(_0x228342(0x87))/0x8*(-parseInt(_0x228342(0x7c))/0x9)+parseInt(_0x228342(0x7d))/0xa;if(_0x432e59===_0x3b182b)break;else _0x58a9d4['push'](_0x58a9d4['shift']());}catch(_0x537a56){_0x58a9d4['push'](_0x58a9d4['shift']());}}}(_0x14fb,0xc5d1c));import{app}from'/scripts/app.js';import{setupGallery}from'./pixabay_gallery_utils.js';function _0x14fb(){const _0x9247c9=['1611306BUXHhh','16UevGxb','42QQXunz','name','images','Comfy.PixabayImageGallery','2150853qSoKin','459282bNryYP','registerExtension','6300549PPkRBS','19512740lkWJyd','1622316lmFffI','4NsINgu','prototype','7494315GENCEG','size','apply','PixabayImageNode','onNodeCreated'];_0x14fb=function(){return _0x9247c9;};return _0x14fb();}app[_0x4a59dc(0x7b)]({'name':_0x4a59dc(0x8b),async 'beforeRegisterNodeDef'(_0x5b1e7b,_0x262c27){const _0xcef1f3=_0x4a59dc;if(_0x262c27[_0xcef1f3(0x89)]===_0xcef1f3(0x84)){const _0x51d1aa=_0x5b1e7b[_0xcef1f3(0x80)][_0xcef1f3(0x85)];_0x5b1e7b[_0xcef1f3(0x80)][_0xcef1f3(0x85)]=function(){const _0x1b6bde=_0xcef1f3,_0x518a9f=_0x51d1aa?_0x51d1aa[_0x1b6bde(0x83)](this,arguments):undefined;return setupGallery(this,_0x1b6bde(0x8a)),this[_0x1b6bde(0x82)]=[0x3e8,0x29e],_0x518a9f;};}}});
+import { app } from "/scripts/app.js";
+import { setupGallery } from "./pixabay_gallery_utils.js";
+
+app.registerExtension({
+    name: "Comfy.PixabayImageGallery",
+    async beforeRegisterNodeDef(nodeType, nodeData) {
+        if (nodeData.name === "PixabayImageNode") {
+            const onNodeCreated = nodeType.prototype.onNodeCreated;
+            nodeType.prototype.onNodeCreated = function () {
+                const r = onNodeCreated ? onNodeCreated.apply(this, arguments) : undefined;
+                setupGallery(this, "images");
+                this.size = [1000, 670];
+                return r;
+            };
+        }
+    },
+});

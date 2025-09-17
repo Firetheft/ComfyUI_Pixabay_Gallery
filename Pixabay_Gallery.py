@@ -14,6 +14,7 @@ NODE_DIR = os.path.dirname(os.path.abspath(__file__))
 CONFIG_FILE = os.path.join(NODE_DIR, "config.json")
 IMAGE_DATA_FILE = os.path.join(NODE_DIR, "selected_image.json")
 VIDEO_DATA_FILE = os.path.join(NODE_DIR, "selected_video.json")
+FAVORITES_FILE = os.path.join(NODE_DIR, "pixabay_favorites.json")
 
 def get_api_key():
     if not os.path.exists(CONFIG_FILE):
@@ -24,6 +25,22 @@ def get_api_key():
             return config.get("pixabay_api_key")
     except Exception:
         return None
+
+def load_favorites():
+    if not os.path.exists(FAVORITES_FILE):
+        return {}
+    try:
+        with open(FAVORITES_FILE, 'r', encoding='utf-8') as f:
+            return json.load(f)
+    except (IOError, json.JSONDecodeError):
+        return {}
+
+def save_favorites(data):
+    try:
+        with open(FAVORITES_FILE, 'w', encoding='utf-8') as f:
+            json.dump(data, f, indent=4, ensure_ascii=False)
+    except IOError as e:
+        print(f"Error saving favorites: {e}")
 
 class PixabayImageNode:
     @classmethod
@@ -155,6 +172,57 @@ async def get_pixabay_media(request):
         except aiohttp.ClientError as e:
             return web.json_response({"error": f"Failed to connect to Pixabay API: {e}"}, status=500)
 
+@server.PromptServer.instance.routes.post("/pixabay_gallery/toggle_favorite")
+async def toggle_favorite(request):
+    try:
+        data = await request.json()
+        item = data.get("item")
+        if not item or 'id' not in item:
+            return web.json_response({"status": "error", "message": "Invalid item data"}, status=400)
+        
+        item_id = str(item['id'])
+        favorites = load_favorites()
+        
+        if item_id in favorites:
+            del favorites[item_id]
+            status = "removed"
+        else:
+            favorites[item_id] = item
+            status = "added"
+            
+        save_favorites(favorites)
+        return web.json_response({"status": status})
+    except Exception as e:
+        return web.json_response({"status": "error", "message": str(e)}, status=500)
+
+@server.PromptServer.instance.routes.get("/pixabay_gallery/get_favorites_list")
+async def get_favorites_list(request):
+    favorites = load_favorites()
+    return web.json_response(list(favorites.keys()))
+
+@server.PromptServer.instance.routes.get("/pixabay_gallery/get_favorites_media")
+async def get_favorites_media(request):
+    try:
+        page = int(request.query.get('page', '1'))
+        per_page = int(request.query.get('per_page', '30'))
+        
+        favorites = load_favorites()
+        items = list(favorites.values())[::-1]
+        
+        total_hits = len(items)
+        start_index = (page - 1) * per_page
+        end_index = start_index + per_page
+        
+        paginated_items = items[start_index:end_index]
+        
+        response_data = {
+            "totalHits": total_hits,
+            "hits": paginated_items
+        }
+        
+        return web.json_response(response_data)
+    except Exception as e:
+        return web.json_response({"error": str(e)}, status=500)
 
 NODE_CLASS_MAPPINGS = {
     "PixabayImageNode": PixabayImageNode,
